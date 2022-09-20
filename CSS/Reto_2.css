@@ -40,11 +40,27 @@ body{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;            
 }
-.up-image:hover{
-    cursor: pointer;
-    box-shadow: hsl(216, 50%, 16%);
-    transition: color aqua;
+
+.content-image img{
+    display: none;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px; 
+    background-color: #fff;
+
 }
+
+.up-image:hover {
+    cursor: pointer;    
+    background: url("/images/icon-view.svg"), url("/images/image-equilibrium.jpg");
+    background-size: initial;
+    background-repeat: no-repeat;    
+    background-position: center;    
+    height: 350px;
+    width: 350px;            
+} 
+
 .content {
     width: 400px;
     background-color: hsl(216, 50%, 16%);
@@ -63,6 +79,11 @@ body{
     color: hsl(0, 0%, 100%);
     font-size: 22px;
     font-weight: 600;
+}
+
+.sub-title:hover{
+    cursor: pointer;    
+    color: aqua;
 }
 
 .text-content {
@@ -139,4 +160,8 @@ body{
     font-weight: 300;
     font-size: 20px;
 }    
-    
+
+.autor_2:hover{
+    cursor: pointer;    
+    color: hsl(178, 100%, 50%);       
+}
