@@ -1,0 +1,142 @@
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    background-color:hsl(217, 54%, 11%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;      
+}
+
+.content-image{
+    background-color:hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;    
+}
+
+.up-image{
+    background: url("/images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 350px; 
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;            
+}
+.up-image:hover{
+    cursor: pointer;
+    box-shadow: hsl(216, 50%, 16%);
+    transition: color aqua;
+}
+.content {
+    width: 400px;
+    background-color: hsl(216, 50%, 16%);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;    
+}
+
+.content-text {
+    padding: 30px;
+    padding-top: 0;
+}
+.sub-title {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text-content {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-cambio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+        
+}
+
+.cambio{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.days {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.content-autor{
+    display: flex;
+    justify-content: ;
+    align-items: center; 
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 10px;    
+}
+
+.icono img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+}
+    
+.autor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    gap: 8px;
+}
+
+.autor_1{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.autor_2{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    font-size: 20px;
+}    
+    
