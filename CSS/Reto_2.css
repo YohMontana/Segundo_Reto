@@ -48,17 +48,16 @@ body{
     height: 350px;
     width: 350px; 
     background-color: #fff;
-
 }
 
 .up-image:hover {
-    cursor: pointer;    
-    background: url("/images/icon-view.svg"), url("/images/image-equilibrium.jpg");
-    background-size: initial;
+    cursor: pointer; 
+    filter: invert(38%) sepia(80%) saturate(200%) hue-rotate(150deg) brightness(120%) contrast(90%);  
+    background:url("/images/icon-view.svg"), url("/images/image-equilibrium.jpg");     
+    visibility: visible;
+    background-size: 50px 50px, 350px 350px;
     background-repeat: no-repeat;    
-    background-position: center;    
-    height: 350px;
-    width: 350px;            
+    background-position: center;
 } 
 
 .content {
@@ -83,7 +82,7 @@ body{
 
 .sub-title:hover{
     cursor: pointer;    
-    color: aqua;
+    color: hsl(178, 100%, 50%);
 }
 
 .text-content {
